@@ -79,11 +79,7 @@ MaterialDialog mMaterialDialog = new MaterialDialog(this).setView(contentView);
 mMaterialDialog.show();
 ```
 
-And, you can call `setBackgroundResource(int resId)` or `setBackground(Drawable drawable)` to change the background:
 
-```java
-mMaterialDialog.setBackgroundResource(R.drawable.background);
-```
 ## 1.2.8
 * Fix the problem of soft keyboard repeat display
 * Fix the action buttons became dismiss when scroll view height is too long.
